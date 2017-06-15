@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/team_number"
+        android:hint="@string/hint1"/>
+    <EditText
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gears_placed"
+        android:hint="@string/hint2"/>
+    <!--<EditText
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gears_dropped"
+        android:hint="@string/hint3"/>-->
+    <CheckBox
+        android:layout_marginTop="10px"
+        android:id="@+id/climb_attempt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempted"/>
+    <!--<EditText
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/climbed"
+        android:hint="@string/hint4"/>-->
+    <CheckBox
+        android:layout_marginTop="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/climbed"
+        android:text="Climbed"/>
+    <CheckBox
+        android:layout_marginTop="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nothing"
+        android:text="Not Climbed"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmInsertion"
+        android:text="@string/btn"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

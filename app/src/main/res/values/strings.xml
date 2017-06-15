@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScoutingApp2</string>
+    <string name="btn">Save</string>
+    <string name="btn_update">Edit</string>
+    <string name="hint1">Team Number</string>
+    <string name="hint2">Gears Placed</string>
+    <string name="hint3">Attempts</string>
+    <string name="hint4">Climbs</string>
+    <string name="hint5">Matches</string>
+    <string name="hint6">N° Match</string>
+</resources>
